@@ -3,7 +3,6 @@ import { connect } from 'react-redux'
 import { filterChange } from '../reducers/filterReducer'
 
 const Filter = (props) => {
-
   const handleChange = (event) => {
     const term = event.target.value
     props.filterChange(term)
